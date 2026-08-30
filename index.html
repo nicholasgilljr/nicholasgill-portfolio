@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nicholas Gill | Marketing Portfolio</title>
+<meta name="description" content="Nicholas Gill — Marketing portfolio featuring digital marketing, campaign design, event promotion, consumer research, and brand activation.">
+<style>
+:root{--ink:#111827;--muted:#64748b;--paper:#f8fafc;--card:#fff;--accent:#c2410c;--accent2:#7c2d12;--line:#e2e8f0}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,Arial,sans-serif;color:var(--ink);background:var(--paper);line-height:1.6}
+nav{position:fixed;top:0;left:0;right:0;background:rgba(248,250,252,.94);backdrop-filter:blur(12px);border-bottom:1px solid var(--line);z-index:10}
+.nav{max-width:1100px;margin:auto;padding:16px 24px;display:flex;justify-content:space-between;align-items:center}
+.logo{font-weight:900;letter-spacing:.04em}.nav a{color:var(--ink);text-decoration:none;margin-left:22px;font-size:.92rem;font-weight:650}
+.hero{min-height:88vh;display:flex;align-items:center;background:linear-gradient(135deg,#fff7ed,#ffedd5 55%,#f8fafc);padding:120px 24px 70px}
+.hero-inner{max-width:1100px;margin:auto;width:100%;display:grid;grid-template-columns:1.15fr .85fr;gap:60px;align-items:center}
+.eyebrow{font-size:.85rem;text-transform:uppercase;letter-spacing:.16em;color:var(--accent);font-weight:800}
+h1{font-size:clamp(3.2rem,7vw,6.5rem);line-height:.92;margin:16px 0 24px;letter-spacing:-.06em}
+.hero p{font-size:1.18rem;color:#475569;max-width:650px}
+.buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.btn{padding:13px 20px;border-radius:999px;text-decoration:none;font-weight:800;border:1px solid var(--ink)}
+.primary{background:var(--ink);color:white}.secondary{color:var(--ink);background:white}
+.hero-card{background:#111827;color:#fff;border-radius:28px;padding:34px;box-shadow:0 25px 60px rgba(15,23,42,.18);transform:rotate(2deg)}
+.hero-card .big{font-size:4rem;font-weight:900;line-height:1}.stat{border-top:1px solid rgba(255,255,255,.2);padding-top:16px;margin-top:22px;color:#cbd5e1}
+section{max-width:1100px;margin:auto;padding:90px 24px}.section-head{display:flex;justify-content:space-between;gap:30px;align-items:end;margin-bottom:34px}
+h2{font-size:2.5rem;letter-spacing:-.04em;margin:0}.lead{color:var(--muted);max-width:600px}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:35px}.panel{background:var(--card);border:1px solid var(--line);border-radius:24px;padding:30px}
+.skills{display:flex;flex-wrap:wrap;gap:9px}.pill{background:#fff7ed;border:1px solid #fed7aa;padding:8px 12px;border-radius:999px;font-size:.9rem}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}.project{background:var(--card);border:1px solid var(--line);border-radius:24px;overflow:hidden}.project img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover}.project-body{padding:25px}.project h3{margin:0 0 7px;font-size:1.35rem}.tag{font-size:.78rem;text-transform:uppercase;letter-spacing:.12em;color:var(--accent);font-weight:800}
+.results{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:24px}.result{background:#111827;color:#fff;border-radius:20px;padding:25px}.result strong{display:block;font-size:2.2rem}.result span{color:#cbd5e1}
+.experience{display:grid;gap:16px}.role{background:#fff;border:1px solid var(--line);border-radius:20px;padding:24px;display:grid;grid-template-columns:1fr auto;gap:15px}.role h3{margin:0}.date{color:var(--muted);font-size:.9rem}
+footer{background:#111827;color:white;padding:60px 24px}.footer-inner{max-width:1100px;margin:auto;display:flex;justify-content:space-between;gap:30px;align-items:center}.footer-inner a{color:white}
+@media(max-width:800px){.hero-inner,.about,.grid{grid-template-columns:1fr}.hero-card{transform:none}.results{grid-template-columns:1fr}.nav a{margin-left:10px}.nav .links{display:none}.section-head{display:block}.role{grid-template-columns:1fr}.footer-inner{display:block}}
+</style>
+</head>
+<body>
+<nav><div class="nav"><div class="logo">NICHOLAS GILL</div><div class="links"><a href="#about">About</a><a href="#work">Work</a><a href="#experience">Experience</a><a href="#contact">Contact</a></div></div></nav>
+
+<header class="hero">
+<div class="hero-inner">
+<div>
+<div class="eyebrow">Marketing • Campaigns • Brand Engagement</div>
+<h1>Marketing that connects people to ideas.</h1>
+<p>I’m Nicholas Gill, a marketing professional focused on digital campaigns, event promotion, consumer research, and brand activation. I enjoy turning a marketing objective into something people can see, understand, and act on.</p>
+<div class="buttons"><a class="btn primary" href="#work">View My Work</a><a class="btn secondary" href="assets/Nicholas-Gill-Resume.pdf">View Resume</a></div>
+</div>
+<div class="hero-card"><div class="big">04</div><p>Featured visual campaigns & marketing projects</p><div class="stat">University of the Pacific • Eberhardt School of Business<br><b>B.S. Marketing/Analytics</b></div></div>
+</div>
+</header>
+
+<section id="about">
+<div class="section-head"><h2>About me</h2><p class="lead">A marketing portfolio built around communication, creativity, organization, and measurable outcomes.</p></div>
+<div class="about">
+<div class="panel"><p>My experience spans digital marketing, social media promotion, campus engagement, sales, and event marketing. I’ve worked on projects where research and strategy had to translate into real-world action — from promoting student organizations to launching a beverage concept on campus.</p><p>I’m especially interested in marketing roles where I can combine creative execution with analytics, collaboration, and customer insight.</p></div>
+<div class="panel"><div class="tag">Core skills</div><div class="skills" style="margin-top:15px"><span class="pill">Marketing Campaigns</span><span class="pill">Social Media Marketing</span><span class="pill">Event Promotion</span><span class="pill">Consumer Research</span><span class="pill">Brand Activation</span><span class="pill">Adobe Illustrator</span><span class="pill">Excel</span><span class="pill">Power BI</span><span class="pill">SQL</span><span class="pill">CRM Systems</span><span class="pill">Project Coordination</span><span class="pill">Customer Engagement</span></div></div>
+</div>
+</section>
+
+<section id="work">
+<div class="section-head"><h2>Selected work</h2><p class="lead">Visual examples of promotional design, campaign communication, and marketing execution.</p></div>
+<div class="grid">
+<article class="project"><img src="assets/beta-alpha-psi.png" alt="Beta Alpha Psi recruitment marketing graphic"><div class="project-body"><div class="tag">Social & Recruitment Marketing</div><h3>Beta Alpha Psi Recruitment Campaign</h3><p>Created promotional content to communicate membership requirements, target eligible business students, and drive awareness for the chapter.</p></div></article>
+<article class="project"><img src="assets/asuo-political-campaign.png" alt="Student government campaign graphic"><div class="project-body"><div class="tag">Campaign Communication</div><h3>Student Leadership Campaign</h3><p>Developed a bold campaign visual designed to communicate a candidate identity and message quickly across a student audience.</p></div></article>
+<article class="project"><img src="assets/brazilian-beverage-launch.png" alt="Brazilian beverage campus launch promotion"><div class="project-body"><div class="tag">Product Launch</div><h3>Brazilian Beverage Market Entry</h3><p>Developed a U.S. college-market entry strategy supported by consumer research, cultural analysis, sourcing, pricing, and a live campus activation.</p></div></article>
+<article class="project"><img src="assets/49ers-feedback-campaign.png" alt="San Francisco 49ers feedback survey campaign"><div class="project-body"><div class="tag">Research & Engagement</div><h3>Audience Feedback Campaign</h3><p>Designed a high-attention survey promotion that used sports branding and a clear call to action to encourage audience participation.</p></div></article>
+</div>
+<div class="results"><div class="result"><strong>95%</strong><span>sell-through on the live beverage launch</span></div><div class="result"><strong>20.4%</strong><span>ROI achieved on the beverage project</span></div><div class="result"><strong>198</strong><span>conference awards supported through student funding work</span></div></div>
+</section>
+
+<section id="experience">
+<div class="section-head"><h2>Experience</h2><p class="lead">Marketing, sales, leadership, and customer-facing experience.</p></div>
+<div class="experience">
+<div class="role"><div><h3>Marketing Director — Beta Alpha Psi</h3><p>Planned and promoted chapter events through social media and campus marketing campaigns; coordinated event logistics and member engagement initiatives.</p></div><div class="date">2026</div></div>
+<div class="role"><div><h3>Sales/Marketing Intern — Campus Ink</h3><p>Coordinated collegiate apparel marketing initiatives through social media outreach and promotional events while supporting campaign deadlines and sales goals.</p></div><div class="date">2024</div></div>
+<div class="role"><div><h3>Financial Representative Intern — Northwestern Mutual</h3><p>Built prospective-client relationships, managed leads in Microsoft CRM, conducted outreach, scheduled appointments, and developed consultative communication skills.</p></div><div class="date">2025</div></div>
+<div class="role"><div><h3>Senator At Large — Associated Students of the University of the Pacific</h3><p>Supported campus initiatives, student engagement programs, events, and cross-committee projects representing student interests.</p></div><div class="date">2025–2026</div></div>
+</div>
+</section>
+
+<section>
+<div class="panel">
+<div class="tag">Education & credentials</div>
+<h2 style="margin-top:8px">University of the Pacific</h2>
+<p><b>B.S. Marketing/Analytics</b> • Eberhardt School of Business</p>
+<p>Google Ads Search Certification • HubSpot Digital Marketing • HubSpot Inbound Marketing</p>
+</div>
+</section>
+
+<footer id="contact"><div class="footer-inner"><div><div class="eyebrow" style="color:#fb923c">Let’s connect</div><h2 style="color:white;margin-top:8px">Nicholas Gill</h2><p style="color:#cbd5e1">Marketing • Analytics • Brand Engagement</p></div><div><p><a href="mailto:gillnick34@gmail.com">gillnick34@gmail.com</a><br><a href="tel:+12094301787">(209) 430-1787</a><br><a href="https://www.linkedin.com/in/nicholasgilljr" target="_blank">LinkedIn</a></p></div></div></footer>
+</body>
+</html>
